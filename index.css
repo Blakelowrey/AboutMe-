@@ -1,0 +1,98 @@
+
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    min-height: 100%;
+    color: rgba(255, 255, 255, 0.568);
+    background-color: rgb(39, 18, 9);
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .web-dev {
+    color: antiquewhite;
+    font-family: 'B612 Mono', monospace;
+  }
+  .name {
+    text-align: left;
+    padding: 1%;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'IBM Plex Mono', monospace;
+    color: antiquewhite;
+  }
+.skills {
+  text-align: left;
+  padding: 1%;
+  display: inline-flex;
+  flex-direction: column;
+  color: antiquewhite;
+  font-family: 'B612 Mono', monospace;
+}
+.skills-list {
+  text-align: left;
+  padding: 1%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: right;
+  padding-left: 10%;
+}
+
+.other {
+  color: antiquewhite;
+  font-family: 'B612 Mono', monospace;
+
+}
+  article {
+    background-color: #FF6D33;
+    min-height: 100%;
+  }
+  .description {
+    text-align: right;
+    padding-left: 10%;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 2;
+    font-family: 'B612 Mono', monospace;
+  }
+  .outer-col-1 {
+    background:#803619;
+    flex: 1;
+  }
+  .outer-col-2 {
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 60vh;
+  }
+  .inner-row aside {
+    background: #BF5226;
+    flex: 1;
+  }
+  footer {
+    justify-content:top;
+    display: flex;
+    flex-direction: row;
+    min-height: 30%;
+    
+
+  }
+  header, footer {
+    background: #421C0D;
+    height: 15%;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
