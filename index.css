@@ -61,7 +61,7 @@
     min-height: 60vh;
   }
   .inner-row aside {
-    background: #BF5226;
+    background: #FF6D33;
     flex: 1;
   }
   footer {
@@ -76,4 +76,8 @@
   }
   header, footer, article, nav, aside {
     padding: 1em;
+  }
+
+  header {
+    background: #FF6D33;
   }
